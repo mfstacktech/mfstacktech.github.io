@@ -10,6 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: npm i && npm run build
+        env:
+          OMG_PUBLISHABLE_KEY: ${{ secrets.OMG_PUBLISHABLE_KEY }}
+          OMG_SIGNATURE_SECRET: ${{ secrets.OMG_SIGNATURE_SECRET }}
       - uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: ./build/

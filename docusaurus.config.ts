@@ -1,6 +1,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import "dotenv/config";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 const BASE_URL =
@@ -10,7 +11,7 @@ const BASE_URL =
 
 const config: Config = {
   title: "MF Stack",
-  tagline: "Dinosaurs are cool",
+  tagline: "Tech Stack for MF distribution",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -28,7 +29,25 @@ const config: Config = {
   onBrokenMarkdownLinks: "warn",
   deploymentBranch: "gh-pages",
 
-  plugins: ["docusaurus-tailwindcss-loader"],
+  plugins: [
+    "docusaurus-tailwindcss-loader",
+    [
+      "@ohimg/ohimg-docusaurus-plugin",
+      {
+        enabledPlugins: [
+          "docusaurus-plugin-content-docs",
+          "docusaurus-plugin-content-pages",
+          "docusaurus-plugin-content-blog",
+        ],
+        debug: false,
+        publishableKey: process.env.OMG_PUBLISHABLE_KEY,
+        signatureSecret: process.env.OMG_SIGNATURE_SECRET,
+        imageOptions: {
+          logoSrc: "https://mfstack.com/img/mfstack-logo-1.png",
+        },
+      },
+    ],
+  ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
