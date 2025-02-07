@@ -77,6 +77,17 @@ const config: Config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: "script",
+      attributes: {
+        // async: "true",
+        "data-uid": "b5925d1137",
+        src: "https://mf-stack.kit.com/b5925d1137/index.js",
+      },
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
@@ -84,7 +95,7 @@ const config: Config = {
       title: "MF Stack",
       logo: {
         alt: "MF Stack Logo",
-        src: "img/mfstack-logo.png",
+        src: "img/mfstack-logo-1.png",
       },
       items: [
         // {

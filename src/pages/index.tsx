@@ -12,6 +12,7 @@ import { MinusIcon, PlusIcon } from "@heroicons/react/24/outline";
 import GalleryWithTags from "../components/mfstack/GalleryWithTags";
 import GetQuoteCTA from "../components/mfstack/GetQuoteCTA";
 import SectionHeader from "../components/mfstack/SectionHeader";
+import ConvertKitForm from "../components/mfstack/ConvertKitForm";
 
 function MfStack() {
   const howWeSolveCards = [
@@ -307,6 +308,8 @@ function MfStack() {
             </div>
           </div>
         </div>
+
+        <ConvertKitForm />
 
         <div className="flex flex-col gap-y-24 my-24">
           {/* For whom and how section */}
