@@ -10,25 +10,27 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #635bff;
+  --ifm-color-primary-dark: #4238ff;
+  --ifm-color-primary-darker: #3227ff;
+  --ifm-color-primary-darkest: #0c00f2;
+  --ifm-color-primary-light: #847eff;
+  --ifm-color-primary-lighter: #948fff;
+  --ifm-color-primary-lightest: #c6c3ff;
   --ifm-code-font-size: 95%;
+  --ifm-link-color: #635bff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #7a73ff; /* A softer shade that still stands out on dark background */
+  --ifm-color-primary-dark: #615bff; /* Slightly darker version for primary interactions */
+  --ifm-color-primary-darker: #5047ff; /* Darker shade with more depth */
+  --ifm-color-primary-darkest: #3a32cc; /* Darkest for accents */
+  --ifm-color-primary-light: #918cff; /* Lighter accent for hover or secondary */
+  --ifm-color-primary-lighter: #a39eff; /* Even lighter for subtle highlights */
+  --ifm-color-primary-lightest: #d0ceff; /* Lightest accent for background elements */
+  --ifm-link-color: #7a73ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
