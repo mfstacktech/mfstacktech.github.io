@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import WhatWeSolveIcons from "../../images/mfstack/WhatWeSolveIcons";
+import WhatWeSolveIcons from "./WhatWeSolveIcons";
 
 const GalleryWithTags = () => {
   const whatWeSolveCards = [

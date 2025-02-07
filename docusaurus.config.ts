@@ -83,8 +83,8 @@ const config: Config = {
     navbar: {
       title: "MF Stack",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "MF Stack Logo",
+        src: "img/mfstack-logo.png",
       },
       items: [
         // {

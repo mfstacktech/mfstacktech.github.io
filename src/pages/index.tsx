@@ -1,8 +1,8 @@
 import Layout from "@theme/Layout";
 import { Container } from "../components/studio/components/Container";
-import HowWeSolveIcons from "../images/mfstack/HowWeSolveIcons";
-import FeaturesSectionIcons from "../images/mfstack/FeaturesSectionIcons";
-import WhyChooseUsSectionIcons from "../images/mfstack/WhyChooseUsSectionIcons";
+import HowWeSolveIcons from "../components/mfstack/HowWeSolveIcons";
+import FeaturesSectionIcons from "../components/mfstack/FeaturesSectionIcons";
+import WhyChooseUsSectionIcons from "../components/mfstack/WhyChooseUsSectionIcons";
 import {
   Disclosure,
   DisclosureButton,
