@@ -343,7 +343,7 @@ function MfStack() {
                     className="flex flex-col bg-white dark:bg-gray-900 shadow-lg p-8 rounded-xl ring-1 ring-neutral-200 dark:ring-neutral-700"
                   >
                     <feature.icon aria-hidden="true" />
-                    <h2 className="mt-4 text-gray-900 dark:text-gray-50">
+                    <h2 className="mt-4 font-bold text-gray-900 text-xl dark:text-gray-50">
                       {feature.name}
                     </h2>
                     <dd className="flex flex-auto flex-col text-base/7 text-gray-600 dark:text-gray-300">
@@ -354,7 +354,7 @@ function MfStack() {
               </dl>
             </div>
 
-            <GetQuoteCTA buttonText={"Get Quote"} buttonLink={"#"} />
+            {/* <GetQuoteCTA buttonText={"Get Quote"} buttonLink={"#"} /> */}
           </div>
 
           {/* Features section */}
@@ -378,7 +378,7 @@ function MfStack() {
                         index % 2 !== 0 ? "lg:order-last" : ""
                       }`}
                     >
-                      <div className="lg:max-w-lg">
+                      <div className="lg:max-w-lg space-y-6">
                         <section.icon aria-hidden="true" />
 
                         <h2 className="text-2xl mt-2 font-semibold text-gray-900 dark:text-indigo-400">
@@ -389,11 +389,11 @@ function MfStack() {
                           {section.description}
                         </p>
 
-                        <dl className="mt-8 max-w-xl text-base/7 text-gray-600 dark:text-gray-300 lg:max-w-none space-y-0">
+                        <dl className="mt-8 max-w-xl text-base/7 text-gray-600 dark:text-gray-300 lg:max-w-none space-y-2">
                           {section.points.map((point, idx) => (
                             <div key={idx} className="flex items-start gap-2">
                               <svg
-                                className="flex-shrink-0 w-6 h-6"
+                                className="flex-shrink-0 w-6 h-6 mt-0.5"
                                 width="26"
                                 height="25"
                                 viewBox="0 0 29 29"

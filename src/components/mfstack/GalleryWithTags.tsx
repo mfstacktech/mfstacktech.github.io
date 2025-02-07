@@ -207,10 +207,10 @@ const GalleryWithTags = () => {
     }
   }, 50); // Adjust the delay as needed (50ms is a good balance for performance)
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [handleScroll]);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, [handleScroll]);
 
   const cardVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -269,7 +269,7 @@ const GalleryWithTags = () => {
                 >
                   <div>
                     <card.icon aria-hidden="true" />
-                    <h2 className="font-bold text-md mt-2 text-gray-900 dark:text-gray-50">
+                    <h2 className="font-bold text-xl mt-2 text-gray-900 dark:text-gray-50">
                       {card.name}
                     </h2>
                   </div>
