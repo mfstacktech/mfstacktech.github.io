@@ -102,7 +102,7 @@ const ConvertKitForm = () => {
         >
           We won't send you spam. Unsubscribe at any time.
         </div>
-        <div className="formkit-powered-by-convertkit-container">
+        {/* <div className="formkit-powered-by-convertkit-container">
           <a
             href="https://kit.com/features/forms?utm_campaign=poweredby&utm_content=form&utm_medium=referral&utm_source=dynamic"
             data-element="powered-by"
@@ -113,7 +113,7 @@ const ConvertKitForm = () => {
           >
             Built with Kit
           </a>
-        </div>
+        </div> */}
       </div>
     </form>
   );
