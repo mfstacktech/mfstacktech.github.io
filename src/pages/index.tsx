@@ -223,7 +223,10 @@ function MfStack() {
   ];
 
   return (
-    <Layout title="MF Stack" description="MF Stack description to set up here">
+    <Layout
+      title="Scale your MF Distribution online"
+      description="Effortlessly build Mutual Fund Web & Mobile Applications for your investors in just weeks, not months!"
+    >
       <Container>
         <div className="relative isolate">
           <div
