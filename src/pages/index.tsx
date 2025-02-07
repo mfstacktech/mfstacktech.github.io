@@ -366,7 +366,7 @@ function MfStack() {
                 {howWeSolveCards.map((feature) => (
                   <div
                     key={feature.name}
-                    className="flex flex-col bg-white dark:bg-gray-900 shadow-lg p-8 rounded-xl ring-1 ring-neutral-200 dark:ring-neutral-700"
+                    className="flex flex-col bg-white dark:bg-gray-900 shadow-md hover:shadow-lg p-8 rounded-xl ring-1 ring-neutral-200 dark:ring-neutral-700"
                   >
                     <feature.icon aria-hidden="true" />
                     <h2 className="mt-4 font-bold text-gray-900 text-xl dark:text-gray-50">

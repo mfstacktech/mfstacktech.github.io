@@ -253,7 +253,7 @@ const GalleryWithTags = () => {
             {shuffledCards.map((card) => (
               <motion.div
                 key={card.id}
-                className="bg-gray-50 dark:bg-gray-900 shadow-lg p-6 rounded-xl ring-1 ring-neutral-200 dark:ring-neutral-700 transition-shadow duration-300"
+                className="bg-gray-50 dark:bg-gray-900 shadow-md hover:shadow-lg p-6 rounded-xl ring-1 ring-neutral-200 dark:ring-neutral-700 transition-shadow duration-300"
                 variants={cardVariants}
                 initial="hidden"
                 animate="visible"
@@ -269,7 +269,7 @@ const GalleryWithTags = () => {
                 >
                   <div>
                     <card.icon aria-hidden="true" />
-                    <h2 className="font-bold text-xl mt-2 text-gray-900 dark:text-gray-50">
+                    <h2 className="font-bold text-lg mt-2 text-gray-900 dark:text-gray-50">
                       {card.name}
                     </h2>
                   </div>
