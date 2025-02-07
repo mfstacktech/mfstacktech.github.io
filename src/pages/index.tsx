@@ -188,19 +188,19 @@ function MfStack() {
       answer:
         "Yes, we can build a custom solution for your needs. You can setup a call with our team which will understand your requirements, and layout a plan for your custom application. We take care of the look and feel of your app and build you an enterprise grade application which can help you scale your business.",
     },
-    {
-      question: "How to migrate my current investors to FP?",
-      answer: "",
-    },
-    {
-      question:
-        "If I migrate to FP, do I have to create new mandates for my investors?",
-      answer: "",
-    },
-    {
-      question: "How to migrate the existing folios to FP?",
-      answer: "",
-    },
+    // {
+    //   question: "How to migrate my current investors to FP?",
+    //   answer: "",
+    // },
+    // {
+    //   question:
+    //     "If I migrate to FP, do I have to create new mandates for my investors?",
+    //   answer: "",
+    // },
+    // {
+    //   question: "How to migrate the existing folios to FP?",
+    //   answer: "",
+    // },
   ];
 
   const logoImages = [
