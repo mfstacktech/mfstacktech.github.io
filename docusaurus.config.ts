@@ -9,7 +9,7 @@ const BASE_URL =
     : "/";
 
 const config: Config = {
-  title: "My Site",
+  title: "MF Stack",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
