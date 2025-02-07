@@ -433,7 +433,7 @@ function MfStack() {
                 ))}
               </div>
             </div>
-            <GetQuoteCTA buttonText={"Get Quote"} buttonLink={"#"} />
+            {/* <GetQuoteCTA buttonText={"Get Quote"} buttonLink={"#"} /> */}
           </div>
 
           {/* Why choose us section */}
@@ -468,7 +468,7 @@ function MfStack() {
                 ))}
               </div>
             </div>
-            <GetQuoteCTA buttonText={"Get Quote"} buttonLink={"#"} />
+            {/* <GetQuoteCTA buttonText={"Get Quote"} buttonLink={"#"} /> */}
           </div>
 
           {/* FAQ Section */}
@@ -520,7 +520,7 @@ function MfStack() {
                 Can’t find the answer you’re looking for? Please chat to our
                 friendly team.
               </p>
-              <GetQuoteCTA buttonText={"Get in touch"} buttonLink={"#"} />
+              {/* <GetQuoteCTA buttonText={"Get in touch"} buttonLink={"#"} /> */}
             </div>
           </div>
         </div>
