@@ -227,9 +227,22 @@ function MfStack() {
       title="Scale your MF Distribution online"
       description="Effortlessly build Mutual Fund Web & Mobile Applications for your investors in just weeks, not months!"
     >
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+      >
+        <div
+          style={{
+            clipPath:
+              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+          }}
+          className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+        />
+      </div>
+
       <Container>
         <div className="relative isolate">
-          <div
+          {/* <div
             aria-hidden="true"
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           >
@@ -240,9 +253,9 @@ function MfStack() {
               }}
               className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             />
-          </div>
+          </div> */}
 
-          <div className="bg-[#292399] rounded-3xl px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12 lg:mb-16">
+          <div className="bg-[#292399] rounded-3xl px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12 lg:mb-16 mt-12">
             <div className="mx-auto max-w-7xl">
               <div className="mx-auto max-w-2xl pt-16 sm:pt-24 lg:pt-32 text-center">
                 <h1 className="text-balance text-4xl sm:text-5xl lg:text-7xl font-semibold tracking-tight text-gray-50">
@@ -281,43 +294,42 @@ function MfStack() {
           </div>
 
           {/* Logos section */}
-          <div className="px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-7xl">
-              <div className="bg-[#F9FAFB] dark:bg-gray-100 rounded-xl sm:rounded-2xl p-6 sm:p-8 lg:p-10">
-                <h2 className="text-center text-sm sm:text-base font-semibold text-[#475467]">
-                  Our Integration Partners
-                </h2>
 
-                {/* Mobile scrolling logos */}
-                <div className="relative block md:hidden overflow-hidden w-full mt-6">
-                  <div className="flex gap-8 sm:gap-12 animate-infinite-scroll">
-                    {logoImages.map((logo, index) => (
-                      <img
-                        key={index}
-                        loading="lazy"
-                        alt={logo.alt}
-                        src={logo.src}
-                        width={128}
-                        height={40}
-                        className="h-8 sm:h-12 object-contain"
-                      />
-                    ))}
-                  </div>
-                </div>
+          <div className="mx-auto max-w-7xl">
+            <div className="bg-[#F9FAFB] dark:bg-gray-100 rounded-xl sm:rounded-2xl p-6 sm:p-8 lg:p-10">
+              <h2 className="text-center text-sm sm:text-base font-semibold text-[#475467]">
+                Our Integration Partners
+              </h2>
 
-                {/* Desktop static logos */}
-                <div className="hidden md:flex flex-wrap justify-around items-center mt-6 gap-6 lg:gap-12">
-                  {logoImages.map((image, index) => (
+              {/* Mobile scrolling logos */}
+              <div className="relative block md:hidden overflow-hidden w-full mt-6">
+                <div className="flex gap-8 sm:gap-12 animate-infinite-scroll">
+                  {logoImages.map((logo, index) => (
                     <img
                       key={index}
-                      alt={image.alt}
-                      src={image.src}
-                      width={148}
+                      loading="lazy"
+                      alt={logo.alt}
+                      src={logo.src}
+                      width={128}
                       height={40}
-                      className="h-10 lg:h-12 object-contain"
+                      className="h-8 sm:h-12 object-contain"
                     />
                   ))}
                 </div>
+              </div>
+
+              {/* Desktop static logos */}
+              <div className="hidden md:flex flex-wrap justify-around items-center mt-6 gap-6 lg:gap-12">
+                {logoImages.map((image, index) => (
+                  <img
+                    key={index}
+                    alt={image.alt}
+                    src={image.src}
+                    width={148}
+                    height={40}
+                    className="h-10 lg:h-12 object-contain"
+                  />
+                ))}
               </div>
             </div>
           </div>
