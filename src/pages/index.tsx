@@ -253,7 +253,7 @@ function MfStack() {
                   Effortlessly build Mutual Fund Web & Mobile Applications for
                   your investors in just 8 weeks
                 </p>
-                <GetQuoteCTA buttonText={"Get Quote"} buttonLink={"#"} />
+                {/* <GetQuoteCTA buttonText={"Get Quote"} buttonLink={"#"} /> */}
               </div>
               <div className="mt-16 sm:mt-24">
                 <img
