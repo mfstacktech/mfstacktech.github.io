@@ -45,8 +45,8 @@ const ConvertKitForm = () => {
             }}
           >
             <h2>
-              Be among the first to experience our MF solutions—join the
-              waitlist today!
+              Be among the first to experience MF Stack - join the waitlist
+              today!
             </h2>
           </div>
           <div
