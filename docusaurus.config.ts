@@ -28,6 +28,8 @@ const config: Config = {
   onBrokenMarkdownLinks: "warn",
   deploymentBranch: "gh-pages",
 
+  plugins: ["docusaurus-tailwindcss-loader"],
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -77,7 +79,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "MF Stack",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",

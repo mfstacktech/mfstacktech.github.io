@@ -4,7 +4,9 @@
  * work well for content-centric websites.
  */
 
-@import "../styles/tailwind.css";
+@import "../styles/base.css";
+@import "../styles/components.css";
+@import "../styles/utilities.css";
 
 /* You can override the default Infima variables here. */
 :root {
