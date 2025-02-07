@@ -335,7 +335,7 @@ function MfStack() {
           </div>
         </div>
 
-        <div className="w-full bg-gradient-to-tr from-indigo-50 to-indigo-100 dark:from-indigo-800 dark:to-indigo-700  my-12 p-12 flex flex-row justify-center shadow-sm rounded-md">
+        <div className="w-full bg-gradient-to-tr from-indigo-50 to-indigo-100 dark:from-indigo-800 dark:to-indigo-700 my-12 p-4 lg:p-12 flex flex-row justify-center shadow-sm rounded-lg">
           <ConvertKitForm />
         </div>
 

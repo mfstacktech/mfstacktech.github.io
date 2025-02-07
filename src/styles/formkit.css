@@ -248,3 +248,7 @@
   border: unset;
   padding: unset;
 }
+
+.formkit-form[data-uid="b5925d1137"][min-width~="600"] [data-style="minimal"] {
+  padding: unset;
+}
