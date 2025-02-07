@@ -309,7 +309,9 @@ function MfStack() {
           </div>
         </div>
 
-        <ConvertKitForm />
+        <div className="w-full bg-indigo-50 my-12 p-12 flex flex-row justify-center">
+          <ConvertKitForm />
+        </div>
 
         <div className="flex flex-col gap-y-24 my-24">
           {/* For whom and how section */}
