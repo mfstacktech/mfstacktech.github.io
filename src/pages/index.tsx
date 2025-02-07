@@ -296,7 +296,7 @@ function MfStack() {
           {/* Logos section */}
 
           <div className="mx-auto max-w-7xl">
-            <div className="bg-[#F9FAFB] dark:bg-gray-100 rounded-xl sm:rounded-2xl p-6 sm:p-8 lg:p-10">
+            <div className="bg-[#F9FAFB] dark:bg-gray-300 rounded-xl sm:rounded-2xl p-6 sm:p-8 lg:p-10">
               <h2 className="text-center text-sm sm:text-base font-semibold text-[#475467]">
                 Our Integration Partners
               </h2>
@@ -335,7 +335,7 @@ function MfStack() {
           </div>
         </div>
 
-        <div className="w-full bg-indigo-50 my-12 p-12 flex flex-row justify-center">
+        <div className="w-full bg-gradient-to-tr from-indigo-50 to-indigo-100 dark:from-indigo-800 dark:to-indigo-700  my-12 p-12 flex flex-row justify-center shadow-sm rounded-md">
           <ConvertKitForm />
         </div>
 
