@@ -37,6 +37,7 @@
     "docusaurus-tailwindcss-loader": "file:plugins/docusaurus-tailwindcss-loader",
     "framer-motion": "^12.4.0",
     "postcss": "^8.5.1",
+    "tailwind-merge": "^3.0.1",
     "tailwindcss": "^3.4.17",
     "tailwindcss-scoped-preflight": "^3.4.10",
     "typescript": "~5.6.2"

@@ -13,6 +13,8 @@ import GalleryWithTags from "../components/mfstack/GalleryWithTags";
 import GetQuoteCTA from "../components/mfstack/GetQuoteCTA";
 import SectionHeader from "../components/mfstack/SectionHeader";
 import ConvertKitForm from "../components/mfstack/ConvertKitForm";
+import { ShimmerButton } from "../components/magicui/shimmer-button";
+import Link from "@docusaurus/Link";
 
 function MfStack() {
   const howWeSolveCards = [
@@ -255,7 +257,7 @@ function MfStack() {
             />
           </div> */}
 
-          <div className="bg-[#292399] rounded-3xl px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12 lg:mb-16 mt-12">
+          <div className="bg-[#292399] rounded-3xl px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12 lg:mb-16 mt-4 lg:mt-4">
             <div className="mx-auto max-w-7xl">
               <div className="mx-auto max-w-2xl pt-16 sm:pt-24 lg:pt-32 text-center">
                 <h1 className="text-balance text-4xl sm:text-5xl lg:text-7xl font-semibold tracking-tight text-gray-50">
@@ -559,7 +561,21 @@ function MfStack() {
                 Can’t find the answer you’re looking for? Please chat to our
                 friendly team.
               </p>
-              {/* <GetQuoteCTA buttonText={"Get in touch"} buttonLink={"#"} /> */}
+
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <Link to="https://cal.com/manasa-madapu">
+                  <ShimmerButton className="shadow-2xl">
+                    <span className="whitespace-pre-wrap text-center text-xl font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-2xl">
+                      Setup a 30 min free call
+                    </span>
+                  </ShimmerButton>
+                </Link>
+              </div>
+
+              {/* <GetQuoteCTA
+                buttonText={"Setup a 30 min free call"}
+                buttonLink={"https://cal.com/manasa-madapu"}
+              /> */}
             </div>
           </div>
         </div>

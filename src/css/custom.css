@@ -46,7 +46,7 @@
 }
 
 .navbar {
-  @apply shadow-none bg-transparent dark:bg-transparent;
+  @apply shadow-none bg-transparent dark:bg-transparent p-0;
 }
 
 /* .navbar {
@@ -58,5 +58,16 @@
 }
 
 .navbar__inner {
-  @apply max-w-7xl mx-auto px-6 lg:px-8;
+  @apply twp max-w-7xl mx-auto px-6 lg:px-8;
+}
+
+/* Change visited link color */
+a:visited {
+  /* color: var(--ifm-color-primary-light); */
+  text-decoration: none;
+}
+
+/* Change hover link color */
+a:hover {
+  text-decoration: none;
 }
