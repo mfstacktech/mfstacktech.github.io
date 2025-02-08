@@ -148,7 +148,8 @@ function Footer() {
           ))}
         </div>
         <p className="mt-8 text-center text-sm/6 text-gray-500 dark:text-gray-400 md:order-1 md:mt-0">
-          &copy; {new Date().getFullYear()} Betalectic. All rights reserved.
+          &copy; {new Date().getFullYear()} MF Stack. A Betalectic Product. All
+          rights reserved.
         </p>
       </div>
     </footer>
