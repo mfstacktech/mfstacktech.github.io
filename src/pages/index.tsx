@@ -402,14 +402,13 @@ function MfStack() {
               <div className="mx-auto max-w-2xl pt-16 sm:pt-24 lg:pt-32 text-center">
                 <h1 className="text-balance text-4xl sm:text-5xl lg:text-7xl font-semibold tracking-tight text-gray-50">
                   The New Age of
-                  <span className="text-[#CCC9FF]"> MF Distribution</span>
+                  <span className="text-[#CCC9FF]"> Mutual Funds Distribution</span>
                 </h1>
                 <p className="mt-4 px-4 py-2 text-center shadow-custom-inset max-w-fit mx-auto text-pretty text-base sm:text-lg lg:text-xl font-medium text-gray-50 bg-[#1B1677] rounded-lg">
                   Powered by Fintech Primitives
                 </p>
                 <p className="mt-6 sm:mt-8 px-4 sm:px-12 text-pretty text-base sm:text-lg lg:text-xl font-medium text-[#CCC9FF]">
-                  Effortlessly build Mutual Fund Web & Mobile Applications for
-                  your investors in just 8 weeks
+                  Take your Mutual Fund Distribution digital in minutes
                 </p>
                 {/* <GetQuoteCTA buttonText={"Get Quote"} buttonLink={"#"} /> */}
               </div>
