@@ -311,9 +311,9 @@ function MfStack() {
         "Our Transaction production is powered by Fintech Primitive APIs.",
     },
     {
-      question: "What product do I get in 8 weeks?",
+      question: "How can I go live in minutes to start MF distribution?",
       answer:
-        "In 8 weeks we provide our standard templated app, which comprises of features like Investor Onboarding, Different types of transactions and Standard Reports. ",
+        "Become a digital Mutual Fund distributor in minutes not months, just in 3 steps: Get ARN; Get APIs from Fntech Primitives for Free; Signup and use MF Stack for free for your first 100 investors and go live in minutes.",
     },
     {
       question: "What kind of transactions do you support?",
