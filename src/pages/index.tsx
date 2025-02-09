@@ -408,7 +408,7 @@ function MfStack() {
                   Powered by Fintech Primitives
                 </p>
                 <p className="mt-6 sm:mt-8 px-4 sm:px-12 text-pretty text-base sm:text-lg lg:text-xl font-medium text-[#CCC9FF]">
-                  Take your Mutual Fund Distribution digital in minutes
+                  Take your Mutual Funds Distribution digital in minutes
                 </p>
                 {/* <GetQuoteCTA buttonText={"Get Quote"} buttonLink={"#"} /> */}
               </div>
