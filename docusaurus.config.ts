@@ -65,6 +65,10 @@ const config: Config = {
     [
       "classic",
       {
+        gtag: {
+          trackingID: "G-XEQCDM3KYG",
+          anonymizeIP: true,
+        },
         docs: false,
         // docs: {
         //   sidebarPath: "./sidebars.ts",
