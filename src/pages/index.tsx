@@ -367,7 +367,7 @@ function MfStack() {
   return (
     <Layout
       title="Scale your MF Distribution online"
-      description="Effortlessly build Mutual Fund Web & Mobile Applications for your investors in just minutes, not months!"
+      description="Effortlessly build Mutual Fund Web & Mobile Applications for your investors in just weeks, not months!"
     >
       <div
         aria-hidden="true"
