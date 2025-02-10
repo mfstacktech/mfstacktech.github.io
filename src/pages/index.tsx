@@ -313,7 +313,7 @@ function MfStack() {
     {
       question: "How can I go live in minutes to start MF distribution?",
       answer:
-        "Become a digital Mutual Fund distributor in minutes not months, just in 3 steps: Get ARN; Get APIs from Fntech Primitives for Free; Signup with MF Stack and start using for free.",
+        "Become a digital Mutual Fund distributor in minutes not months, just in 3 steps: Get ARN; Get APIs from Fintech Primitives for Free; Signup with MF Stack and start using for free.",
     },
     {
       question: "What kind of transactions do you support?",
