@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+
+concurrency: deploy
+
 jobs:
   deploy-main:
     runs-on: ubuntu-latest
