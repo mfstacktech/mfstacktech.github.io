@@ -311,9 +311,9 @@ function MfStack() {
         "Our Transaction production is powered by Fintech Primitive APIs.",
     },
     {
-      question: "How can I go live in minutes to start MF distribution?",
+      question: "How can I go live in minutes to start MF distribution online?",
       answer:
-        "Become a digital Mutual Fund distributor in minutes not months, just in 3 steps: Get ARN; Get APIs from Fintech Primitives for Free; Signup with MF Stack and start using for free.",
+        "Distribute Mutual Funds online in just 3 steps: Obtain your ARN and complete AMC empanelment; Get APIs from Fintech Primitives; Sign up with MF Stack to go live in minutes - start for free!",
     },
     {
       question: "What kind of transactions do you support?",
