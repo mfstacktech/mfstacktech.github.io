@@ -7,7 +7,9 @@
 @import "../styles/base.css";
 @import "../styles/components.css";
 @import "../styles/utilities.css";
+@import "../styles/avatar.css";
 @import "../styles/formkit.css";
+@import "../styles/font-sizes.css";
 
 /* You can override the default Infima variables here. */
 :root {
@@ -45,9 +47,17 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.navbar {
-  @apply shadow-none bg-transparent dark:bg-transparent p-0;
+.plugin-pages {
+  .navbar {
+    @apply shadow-none bg-transparent dark:bg-transparent;
+  }
 }
+
+/* .plugin-pages {
+  .navbar {
+    @apply shadow-none bg-transparent dark:bg-transparent p-0;
+  }
+} */
 
 /* .navbar {
   @apply bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30;
@@ -57,9 +67,26 @@
   @apply relative;
 }
 
-.navbar__inner {
-  @apply twp max-w-7xl mx-auto px-6 lg:px-8;
+/* .navbar__inner {
+  @apply twp max-w-7xl mx-auto;
+} */
+
+/* .blog-post-page .main-wrapper {
+  @apply twp bg-red-200 lg:mx-56;
 }
+
+.blog-list-page .main-wrapper {
+  @apply twp bg-red-200 lg:mx-56;
+} */
+
+/* .blog-list-page .main-wrapper {
+  @apply twp bg-red-200;
+} */
+
+/* .blog-list-page .container,
+.blog-post-page .container {
+  @apply twp lg:px-0;
+} */
 
 /* Change visited link color */
 a:visited {
