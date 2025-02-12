@@ -119,7 +119,7 @@ const config: Config = {
       title: "MF Stack",
       logo: {
         alt: "MF Stack Logo",
-        src: "img/mfstack-logo-1.png",
+        src: "img/logo_1.svg",
       },
       items: [
         // {
