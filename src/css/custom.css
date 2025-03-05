@@ -67,9 +67,13 @@
   @apply relative;
 }
 
-/* .navbar__inner {
-  @apply twp max-w-7xl mx-auto;
-} */
+.navbar {
+  @apply twp !p-0;
+}
+
+.navbar__inner {
+  @apply twp max-w-7xl mx-auto px-4 lg:px-8;
+}
 
 /* .blog-post-page .main-wrapper {
   @apply twp bg-red-200 lg:mx-56;
@@ -97,4 +101,12 @@ a:visited {
 /* Change hover link color */
 a:hover {
   text-decoration: none;
+}
+
+.navbar__logo {
+  height: 4rem;
+}
+
+.navbar__brand {
+  font-size: 20px;
 }

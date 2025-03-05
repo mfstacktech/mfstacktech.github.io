@@ -118,8 +118,8 @@ const config: Config = {
       hideOnScroll: true,
       title: "MF Stack",
       logo: {
-        alt: "MF Stack Logo",
-        src: "img/mfstack-logo-1.png",
+        alt: "MF Stack",
+        src: "logos/logo.svg",
       },
       items: [
         // {
