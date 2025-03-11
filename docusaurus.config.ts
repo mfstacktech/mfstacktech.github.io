@@ -128,7 +128,7 @@ const config: Config = {
         //   position: "left",
         //   label: "Tutorial",
         // },
-        // { to: "/blog", label: "Blog", position: "left" },
+        { to: "/pricing", label: "Pricing", position: "right" },
         // {
         //   href: "https://github.com/facebook/docusaurus",
         //   label: "GitHub",

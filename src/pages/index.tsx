@@ -15,6 +15,7 @@ import SectionHeader from "../components/mfstack/SectionHeader";
 import ConvertKitForm from "../components/mfstack/ConvertKitForm";
 import { ShimmerButton } from "../components/magicui/shimmer-button";
 import Link from "@docusaurus/Link";
+import LogosSection from "../components/Common/LogosSection";
 
 type SocialLink = {
   name: string;
@@ -345,25 +346,6 @@ function MfStack() {
     // },
   ];
 
-  const logoImages = [
-    {
-      src: require("../images/mfstack/fp.png").default,
-      alt: "Fintech Primitives",
-    },
-    {
-      src: require("../images/mfstack/kfintech.png").default,
-      alt: "KFintech",
-    },
-    // {
-    //   src: require("../images/mfstack/cybrilla.png").default,
-    //   alt: "Cybrilla",
-    // },
-    {
-      src: require("../images/mfstack/cams.png").default,
-      alt: "Cams",
-    },
-  ];
-
   return (
     <Layout
       title="Scale your MF Distribution online"
@@ -402,7 +384,10 @@ function MfStack() {
               <div className="mx-auto max-w-2xl pt-16 sm:pt-24 lg:pt-32 text-center">
                 <h1 className="text-balance text-4xl sm:text-5xl lg:text-7xl font-semibold tracking-tight text-gray-50">
                   The New Age of
-                  <span className="text-[#CCC9FF]"> Mutual Funds Distribution</span>
+                  <span className="text-[#CCC9FF]">
+                    {" "}
+                    Mutual Funds Distribution
+                  </span>
                 </h1>
                 <p className="mt-4 px-4 py-2 text-center shadow-custom-inset max-w-fit mx-auto text-pretty text-base sm:text-lg lg:text-xl font-medium text-gray-50 bg-[#1B1677] rounded-lg">
                   Powered by Fintech Primitives
@@ -449,44 +434,7 @@ function MfStack() {
 
           {/* Logos section */}
 
-          <div className="mx-auto max-w-7xl">
-            <div className="bg-[#F9FAFB] dark:bg-gray-300 rounded-xl sm:rounded-2xl p-6 sm:p-8 lg:p-10">
-              <h2 className="text-center text-sm sm:text-base font-semibold text-[#475467]">
-                Our Integration Partners
-              </h2>
-
-              {/* Mobile scrolling logos */}
-              <div className="relative block md:hidden overflow-hidden w-full mt-6">
-                <div className="flex gap-8 sm:gap-12 animate-infinite-scroll">
-                  {logoImages.map((logo, index) => (
-                    <img
-                      key={index}
-                      loading="lazy"
-                      alt={logo.alt}
-                      src={logo.src}
-                      width={128}
-                      height={40}
-                      className="h-8 sm:h-12 object-contain"
-                    />
-                  ))}
-                </div>
-              </div>
-
-              {/* Desktop static logos */}
-              <div className="hidden md:flex flex-wrap justify-around items-center mt-6 gap-6 lg:gap-12">
-                {logoImages.map((image, index) => (
-                  <img
-                    key={index}
-                    alt={image.alt}
-                    src={image.src}
-                    width={148}
-                    height={40}
-                    className="h-10 lg:h-12 object-contain"
-                  />
-                ))}
-              </div>
-            </div>
-          </div>
+          <LogosSection />
         </div>
 
         <div className="w-full bg-gradient-to-tr from-indigo-50 to-indigo-100 dark:from-indigo-800 dark:to-indigo-700 my-12 p-4 lg:p-12 flex flex-row justify-center shadow-sm rounded-lg">
