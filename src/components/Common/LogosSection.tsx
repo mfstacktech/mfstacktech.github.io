@@ -23,7 +23,7 @@ export const LogosSection = ({ outerContainerClass }: props) => {
     },
   ];
   return (
-    <div className={`mx-auto max-w-7xl ${outerContainerClass}`}>
+    <div className={`mx-auto w-full max-w-7xl ${outerContainerClass}`}>
       <div className="bg-[#F9FAFB] dark:bg-gray-300 rounded-xl sm:rounded-2xl p-6 sm:p-8 lg:p-10">
         <h2 className="text-center text-sm sm:text-base font-semibold text-[#475467]">
           Our Integration Partners

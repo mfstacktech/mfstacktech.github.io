@@ -11,8 +11,10 @@ import { Footer } from "../components/Common/Footer";
 
 export const PricingPage = () => {
   return (
-    <div>
-      <PPHeader />
+    <Layout
+      title="Scale your MF Distribution online"
+      description="Effortlessly build Mutual Fund Web & Mobile Applications for your investors in just weeks, not months!"
+    >
       <PPHeroSection />
       <PPCTASection />
       <PPFeaturesSection />
@@ -20,7 +22,7 @@ export const PricingPage = () => {
       <PPScrollerSection />
       <PPFaqSection />
       <Footer />
-    </div>
+    </Layout>
   );
 };
 

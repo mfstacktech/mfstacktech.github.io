@@ -7,12 +7,12 @@ const HorizontalArrowsSvg = ({ className }: props) => (
     xmlns="http://www.w3.org/2000/svg"
     width="20"
     height="20"
-    className={className}
+    className={`${className} stroke-current`}
     fill="none"
     viewBox="0 0 20 20"
   >
     <path
-      stroke="#414651"
+      className="text-gray-800 dark:text-white"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="1.667"

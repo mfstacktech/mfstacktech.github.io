@@ -32,16 +32,16 @@ const features = [
 
 export default function PPFaqSection() {
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32 mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="overflow-hidden  py-24 sm:py-32 mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div>
-          <p className="font-sans font-semibold text-base/7 my-0 leading-6 text-mf-stack-purple-utility-500">
+          <p className="font-sans font-semibold text-base/7 my-0 leading-6 text-mf-stack-purple-utility-500 dark:text-mf-stack-purple-utility-300">
             Support
           </p>
-          <p className="mt-3 mb-0 font-sans font-semibold text-4.5xl tracking-tight text-pretty text-gray-900 ">
+          <p className="mt-3 mb-0 font-sans font-semibold text-4.5xl tracking-tight text-pretty text-gray-900 dark:text-white">
             Frequently asked questions
           </p>
-          <p className="mt-5 mb-0 max-w-3xl text-lg/8 text-gray-600">
+          <p className="mt-5 mb-0 max-w-3xl text-lg/8 text-gray-600 dark:text-gray-400">
             Everything you need to know about the product and billing. Can’t
             find the answer you’re looking for? Please chat to our friendly
             team.
@@ -49,12 +49,12 @@ export default function PPFaqSection() {
         </div>
         <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
           <div className="lg:pt-4 h-full">
-            <div className=" mx-auto max-w-2xl lg:mx-0 lg:max-w-lg h-full">
-              <dl className=" max-w-xl h-full mt-12 lg:mt-0 my-0 flex flex-col  justify-evenly text-base/7 text-gray-600 lg:max-w-none">
+            <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg h-full">
+              <dl className="max-w-xl h-full mt-12 lg:mt-0 my-0 flex flex-col justify-evenly text-base/7 text-gray-600 dark:text-gray-400 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative">
-                    <div className="flex gap-x-4 items-center  font-semibold text-gray-900">
-                      <div className="p-2.5 border border-solid border-gray-200 rounded-md flex items-center">
+                    <div className="flex gap-x-4 items-center font-semibold text-gray-900 dark:text-white">
+                      <div className="p-2.5 border border-solid border-gray-200 dark:border-gray-700 rounded-md flex items-center">
                         {feature?.icon}
                       </div>
                       {feature.name}
@@ -66,11 +66,11 @@ export default function PPFaqSection() {
             </div>
           </div>
 
-          <div className="relative isolate sm:mx-auto sm:max-w-2xl sm:rounded-3xl  lg:mx-0 lg:max-w-none">
+          <div className="relative isolate sm:mx-auto sm:max-w-2xl sm:rounded-3xl lg:mx-0 lg:max-w-none">
             <img
               alt="Product screenshot"
               src="/img/faq-random.png"
-              className="max-w-full w-full rounded-xl "
+              className="max-w-full w-full rounded-xl"
             />
           </div>
         </div>
