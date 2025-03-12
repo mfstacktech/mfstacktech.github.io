@@ -12,7 +12,7 @@ const CustomStickyScroller = ({ children, stickyContent }: Props) => {
   return (
     <div className="flex flex-col lg:flex-row py-8 mobile:ml-2 gap-6  w-full">
       {/* Main Content */}
-      <div className="right flex flex-col items-start rounded-2xl border border-slate-200 dark:border-neutral-700  dark:bg-neutral-900 w-full lg:w-[50%] shadow-lg">
+      <div className="right flex flex-col items-start rounded-2xl border border-slate-200 dark:border-neutral-700   w-full lg:w-[50%] shadow-lg">
         {children}
       </div>
       {/* Sidebar Container */}

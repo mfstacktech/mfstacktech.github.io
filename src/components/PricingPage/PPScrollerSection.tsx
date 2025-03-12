@@ -109,28 +109,37 @@ export const PPScrollerSection = () => {
       {dataContent.map((item, index) => {
         return (
           <CustomStickyScroller key={index} stickyContent={item.StickyContent}>
-            <div className="p-8 h-screen space-y-4 ">
-              <p className="font-sans font-semibold text-xl my-0">
+            <div className="p-8 h-screen space-y-4">
+              <p className="font-sans font-semibold text-xl my-0 text-gray-900 dark:text-white">
                 {item?.title}
               </p>
-              <p className="font-sans font-semibold text-5xl my-0">
+              <p className="font-sans font-semibold text-5xl my-0 text-gray-900 dark:text-white">
                 {item?.heading}
               </p>
-              <p className="font-sans font-normal text-base my-0">
+              <p className="font-sans font-normal text-base my-0 text-gray-600 dark:text-gray-400">
                 {item?.description}
               </p>
-              <button className="w-fit flex items-center gap-x-2 rounded-3xl border-none hover:cursor-pointer bg-mf-stack-blue-dark text-white px-3.5 py-2 font-semibold hover:bg-mf-stack-blue">
+              <button
+                className="w-fit flex items-center gap-x-2 rounded-3xl border-none hover:cursor-pointer 
+                     bg-mf-stack-blue-dark text-white px-3.5 py-2 font-semibold 
+                     hover:bg-mf-stack-blue"
+              >
                 {item?.buttonText}
                 <ArrowRightIcon height={16} width={16} />
               </button>
-              <p className="font-sans font-semibold text-base my-0">See Also</p>
+              <p className="font-sans font-semibold text-base my-0 text-gray-900 dark:text-white">
+                See Also
+              </p>
               <div>
                 {item?.features?.map((feature: any, index) => (
                   <p
                     key={`feature-${index}`}
-                    className="font-sans font-normal text-sm text-black my-0"
+                    className="font-sans font-normal text-sm text-black dark:text-white my-0"
                   >
-                    <span className="font-sans font-semibold text-sm text-mf-stack-purple-primary mr-2">
+                    <span
+                      className="font-sans font-semibold text-sm text-mf-stack-purple-primary 
+                         dark:text-mf-stack-purple-light mr-2"
+                    >
                       {feature?.title}
                     </span>
                     {feature?.content}
