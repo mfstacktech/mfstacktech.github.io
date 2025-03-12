@@ -17,9 +17,9 @@ export const PricingPage = () => {
     >
       <PPHeroSection />
       <PPCTASection />
+      <PPScrollerSection />
       <PPFeaturesSection />
       <LogosSection outerContainerClass="px-6 lg:px-8" />
-      <PPScrollerSection />
       <PPFaqSection />
       <Footer />
     </Layout>

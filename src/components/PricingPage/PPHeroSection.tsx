@@ -35,21 +35,16 @@ const tiers: SubscriptionCards[] = [
         heading: "Distributor Web Portal",
         content: [
           "Distributor Assisted Onboarding",
-          "Onboarding of KYC Compliant Investors – RI, NRI, Non-individuals",
-          "KYC (RI only)",
+          "Onboarding  RI, NRI, Non-individuals",
           "Distributor Initiated Transactions",
           "One-time, Recurring, Redemption, Switch, STP, SWP",
           "Mandates",
           "Reports",
-          "Capital Gains, Holdings, Transactions Reports",
         ],
       },
       {
         heading: "Investor Mobile App",
-        content: [
-          "Investor Access",
-          "Investors can view the Portfolio, Holdings details.",
-        ],
+        content: ["Investor Portfolio Details"],
       },
     ],
     mostPopular: false,
@@ -66,28 +61,17 @@ const tiers: SubscriptionCards[] = [
         heading: "Distributor Web Portal",
         content: [
           "Distributor Assisted Onboarding",
-          "Onboarding of KYC Compliant Investors – RI, NRI, Non-individuals",
-          "KYC (RI only)",
+          "Onboarding of RI, NRI, Non-individuals",
           "Distributor Initiated Transactions",
           "One-time, Recurring, Redemption, Switch, STP, SWP",
           "Mandates",
           "Reports",
-          "Capital Gains, Holdings, Transactions Reports",
-          "Investment Mobile App",
-          "Portfolio details in view",
-          "Investor Risk Profile",
-          "Create & Track Goals",
           "Baskets",
         ],
       },
       {
         heading: "Investor Mobile App",
-        content: [
-          "Investor Onboarding/KYC",
-          "Transactions",
-          "Reports",
-          "Capital Gains, Holdings, Transactions Reports",
-        ],
+        content: ["Investor Onboarding", "Transactions", "Reports"],
       },
     ],
     mostPopular: true,
@@ -103,14 +87,10 @@ const tiers: SubscriptionCards[] = [
         heading: "Distributor Web Portal",
         content: [
           "Distributor Assisted Onboarding",
-          "Onboarding of KYC Compliant Investors – RI, NRI, Non-individuals",
-          "KYC (RI only)",
+          "Onboarding of RI, NRI, Non-individuals",
           "Distributor Initiated Transactions",
           "One-time, Recurring, Redemption, Switch, STP, SWP",
           "Reports",
-          "Capital Gains, Holdings, Transactions Reports",
-          "Investor Risk Profile",
-          "Create & Track Goals",
           "Baskets",
           "Distributor Performance Reports",
           "Multi - Investor Transactions",
@@ -119,12 +99,7 @@ const tiers: SubscriptionCards[] = [
       },
       {
         heading: "Investor Mobile App",
-        content: [
-          "Investor Onboarding/KYC",
-          "Transactions",
-          "Reports",
-          "Capital Gains, Holdings, Transactions Reports",
-        ],
+        content: ["Investor Onboarding", "Transactions", "Reports"],
       },
     ],
     mostPopular: false,
@@ -199,7 +174,7 @@ export default function PPHeroSection() {
                   <p className="font-sans font-semibold mb-6 text-lg leading-7 text-mf-stack-brand-button text-center dark:text-white">
                     {section.heading}
                   </p>
-                  <ul className="my-0 space-y-4 list-none px-0">
+                  <ul className="my-0 space-y-2 list-none px-0">
                     {section.content.map((item, itemIndex) => (
                       <li
                         className="flex items-start space-x-2"
