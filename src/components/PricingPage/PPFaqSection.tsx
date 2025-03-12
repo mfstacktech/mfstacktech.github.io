@@ -69,7 +69,7 @@ export default function PPFaqSection() {
           <div className="relative isolate sm:mx-auto sm:max-w-2xl sm:rounded-3xl lg:mx-0 lg:max-w-none">
             <img
               alt="Product screenshot"
-              src="/img/faq-random.png"
+              src="img/faq-random.png"
               className="max-w-full w-full rounded-xl"
             />
           </div>
