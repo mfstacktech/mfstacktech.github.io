@@ -98,7 +98,7 @@ const tiers: SubscriptionCards[] = [
         ],
       },
       {
-        heading: "Investor Mobile App",
+        heading: "Investor Web and Mobile Apps",
         content: ["Investor Onboarding", "Transactions", "Reports"],
       },
     ],
@@ -111,7 +111,7 @@ function classNames(...classes) {
 }
 
 export default function PPHeroSection() {
-  const [selectedPackage, setSelectedPackage] = useState(0);
+  const [selectedPackage, setSelectedPackage] = useState(1);
   const [enabled, setEnabled] = useState(false);
 
   const SubscriptionCardComponent = ({
