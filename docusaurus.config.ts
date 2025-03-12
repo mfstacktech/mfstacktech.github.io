@@ -128,7 +128,35 @@ const config: Config = {
         //   position: "left",
         //   label: "Tutorial",
         // },
-        // { to: "/blog", label: "Blog", position: "left" },
+        { to: "/pricing", label: "Pricing", position: "right" },
+        {
+          type: "html",
+          position: "right",
+          value: `<button style="
+       
+  background-color: #1B1677; /* bg-mf-stack-blue-dark */
+  color: white; /* text-white */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* shadow-sm */
+  display: block; /* block */
+  border-radius: 0.375rem; /* rounded-md */
+  padding: 0.5rem 0.75rem; /* px-3 py-2 */
+  text-align: center; /* text-center */
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 600; /* font-semibold */
+  line-height: 1.5; /* text-sm/6 */
+  outline: 2px solid transparent; 
+  outline-offset: 2px; 
+  transition: background-color 0.2s, color 0.2s;
+  border: none;
+  cursor: pointer;"
+  onmouseover="this.style.backgroundColor='#292399'"
+  onmouseout="this.style.backgroundColor='#1B1677'"
+  onblur="this.style.outlineColor='transparent'"
+  onclick="window.open('https://cal.com/manasa-madapu', '_blank');"
+      >
+       Setup a 30 min free call
+      </button>`,
+        },
         // {
         //   href: "https://github.com/facebook/docusaurus",
         //   label: "GitHub",
