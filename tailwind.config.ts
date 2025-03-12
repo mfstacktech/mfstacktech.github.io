@@ -19,7 +19,9 @@ module.exports = {
       xl: ["1.25rem", { lineHeight: "2rem" }],
       "2xl": ["1.5rem", { lineHeight: "2.25rem" }],
       "3xl": ["1.75rem", { lineHeight: "2.25rem" }],
+      "3.5xl": ["1.875rem", { lineHeight: "2.375rem" }],
       "4xl": ["2rem", { lineHeight: "2.5rem" }],
+      "4.5xl": ["2.25rem", { lineHeight: "2.75rem" }],
       "5xl": ["2.5rem", { lineHeight: "3rem" }],
       "6xl": ["3rem", { lineHeight: "3.5rem" }],
       "7xl": ["4rem", { lineHeight: "4.5rem" }],
@@ -27,6 +29,9 @@ module.exports = {
     extend: {
       boxShadow: {
         "custom-inset": "inset 0px 1px 4px 0px rgba(0, 0, 0, 0.25)",
+      },
+      backgroundImage: {
+        "pricing-page-bg": "url('/img/pricing-page-bg.png')",
       },
       animation: {
         "infinite-scroll": "scrollLeft 20s linear infinite",
@@ -90,7 +95,16 @@ module.exports = {
       // },
       colors: {
         "mf-stack-purple-light": "#3A33BB",
+        "mf-stack-purple-primary": "#7F56D9",
+        "mf-stack-purple-dark": "#42307D",
+        "mf-stack-purple-ultra-light": "#F9F5FF",
+        "mf-stack-purple-very-light": "#E9D7FE",
+        "mf-stack-purple-utility-500": "#645BFF",
+        "mf-stack-blue-dark": "#1B1677",
+        "mf-stack-blue": "#292399",
         "mf-stack-brand-button": "#4E45DD",
+        "mf-stack-gray-primary": "#FAFAFA",
+        "mf-stack-gray-light": "#535862",
       },
     },
   },
